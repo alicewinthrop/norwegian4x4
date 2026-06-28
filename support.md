@@ -14,7 +14,7 @@ Heart rate data requires an Apple Watch paired and running the companion app. Ma
 The 4x4 protocol uses fixed 4-minute intervals and 3-minute recoveries. You can adjust warm-up and cool-down durations in Settings.
 
 **Where is my workout data stored?**
-All workout data is saved to Apple Health on your device. The app has no server, no accounts, and no analytics. Your data never leaves your device.
+Your workout data is saved on your device and to Apple Health. The app has no server and no analytics, you don't need an account, and it does not transmit your data off your device. Anything you share with another service is your choice.
 
 **The app crashed or something isn't working.**
 Please contact us using the email below with a description of what happened. Include your iPhone model and iOS version if possible.
