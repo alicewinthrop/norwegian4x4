@@ -1,6 +1,6 @@
 # Norwegian 4x4 — Privacy Policy
 
-**Effective date:** June 28, 2026
+**Effective date:** July 21, 2026
 **Developer:** Alice Winthrop
 
 ## Overview
@@ -11,12 +11,18 @@ Norwegian 4x4 is a workout timer app for iPhone and Apple Watch. We take a priva
 
 With your explicit permission, Norwegian 4x4 reads and writes the following via Apple HealthKit:
 
-* Heart rate samples
-* Workout sessions and summaries
+* Heart rate samples (read and written)
+* Workout sessions and summaries (read and written)
+* Resting heart rate (read only)
+* VO2 max (read only)
 
-This data is stored in Apple Health on your device.
+This data is stored in Apple Health on your device. Resting heart rate and VO2 max are read only if Apple Health has them, and are used to calculate and display your fitness metrics. If Apple Health has no resting heart rate for you, you can enter one yourself in Settings; that value is stored locally on your device.
 
 The app also keeps a history of your completed workouts (date, duration, per-phase and heart-rate summaries) in local storage on your device so you can review past sessions in the app. This local history stays on your device and is not transmitted to us or to anyone else.
+
+From your workout data, the app calculates fitness metrics on your device — heart-rate recovery after each interval and an estimate of your VO2 max. These are estimates for your own use, not medical measurements, and they are calculated and stored on your device.
+
+When the app saves a completed workout to Apple Health, it also attaches that workout's detail (the per-phase breakdown and the calculated metrics above) to the workout entry in Apple Health. This keeps your workout detail intact if you reinstall the app or move to a new device. That information lives in Apple Health on your device, alongside the workout itself.
 
 ## Data Collection
 
@@ -52,9 +58,9 @@ The app does not knowingly collect any information from anyone, including childr
 
 Norwegian 4x4 stores your preferences (age, heart rate max, workout settings) and your in-app workout history locally on your device. Workout data is also saved to Apple Health, which is managed by iOS separately from the app.
 
-You can delete an individual workout from your in-app history at any time from the History screen. Uninstalling the app removes your preferences and your entire local workout history from your device.
+You can delete an individual workout from your in-app history at any time from the History screen, or delete your entire in-app history at once from Settings. Uninstalling the app removes your preferences and your entire local workout history from your device.
 
-Workouts saved to Apple Health are managed by iOS and remain in Apple Health after the app is uninstalled. To delete them, open the Apple Health app, navigate to Browse > Activity > Workouts, and delete individual entries. There is no account to delete because the app does not create accounts.
+Workouts saved to Apple Health are managed by iOS and remain in Apple Health after the app is uninstalled — including the workout detail the app attaches to them. To delete them, open the Apple Health app, navigate to Browse > Activity > Workouts, and delete individual entries; deleting a workout there removes its attached detail with it. There is no account to delete because the app does not create accounts.
 
 ## Changes to This Policy
 
