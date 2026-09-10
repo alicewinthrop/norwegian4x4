@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============================================================
+       PRIMARY SEO
+       Target queries: "best norwegian 4x4 app", "norwegian 4x4 app",
+       "norwegian 4x4 timer", "4x4 interval app"
+       ============================================================ -->
+  <title>Norwegian 4×4 — Heart-Rate Interval Workout App for iPhone &amp; Apple Watch</title>
+  <meta name="description" content="Norwegian 4×4 is a guided interval workout app that runs the timer and coaches your heart-rate zone through every interval, with your Apple Watch or any Bluetooth monitor. First workout free, then one price. No subscription.">
+  <link rel="canonical" href="https://norwegian4x4.app/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Norwegian 4×4">
+  <meta property="og:title" content="Norwegian 4×4 — Heart-Rate Interval Workout App">
+  <meta property="og:description" content="A guided Norwegian 4×4 interval workout that finds your heart-rate zone, runs the timer, and coaches you through every interval. Apple Watch or any Bluetooth monitor. No subscription.">
+  <meta property="og:url" content="https://norwegian4x4.app/">
+  <!-- TODO(design): 1200×630 social share image -->
+  <meta property="og:image" content="https://norwegian4x4.app/assets/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Norwegian 4×4 — Heart-Rate Interval Workout App">
+  <meta name="twitter:description" content="A guided Norwegian 4×4 interval workout that finds your heart-rate zone, runs the timer, and coaches you through every interval. No subscription.">
+  <meta name="twitter:image" content="https://norwegian4x4.app/assets/og-image.png">
+
+  <!-- ============================================================
+       STRUCTURED DATA
+       SoftwareApplication drives the app rich-result (price, platform).
+       No aggregateRating is included — add one only with real, honest
+       App Store rating data, never fabricated.
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Norwegian 4×4",
+    "operatingSystem": "iOS 16.0 or later, watchOS",
+    "applicationCategory": "HealthApplication",
+    "description": "A guided Norwegian 4×4 interval workout app that finds your target heart-rate zone, runs the interval timer, and coaches you to stay in zone through every interval, using an Apple Watch or any Bluetooth heart-rate monitor.",
+    "url": "https://norwegian4x4.app/",
+    "offers": {
+      "@type": "Offer",
+      "price": "4.99",
+      "priceCurrency": "USD",
+      "description": "First workout free, then a one-time $4.99 unlock. No subscription."
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Alice Winthrop"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the Norwegian 4×4 workout?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Norwegian 4×4 is an interval workout: a warm-up, four hard 4-minute intervals at high effort with easy 3-minute recovery between them, then a cool-down. It is one of the most studied protocols for building aerobic fitness and VO2max."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an Apple Watch to use the app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Heart-rate zone coaching works with either an Apple Watch or any Bluetooth heart-rate monitor, such as a chest strap or a watch in broadcast mode. On an iPhone alone with neither, the app runs as a guided interval timer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the app free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your first workout is free. After that it is a one-time $4.99 purchase. There is no subscription."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the app collect my data?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. There is no account, no ads, and no analytics. Everything is computed and stored on your device, and nothing leaves it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I set my maximum heart rate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The app estimates your maximum heart rate from your age using the Tanaka formula (208 − 0.7 × age), or you can set it yourself with Manual Override in Settings."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ============================================================
+       PLACEHOLDER STYLES — intentionally minimal.
+       Design will be replaced by the design system. This exists only
+       to keep the semantic structure readable while drafting content.
+       ============================================================ -->
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    img { max-width: 100%; height: auto; }
+    .cta { font-weight: 600; }
+    figure { margin: 1rem 0; }
+    .placeholder {
+      border: 1px dashed currentColor;
+      padding: 1rem;
+      opacity: 0.6;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Norwegian 4×4 home">
+      <!-- TODO(design): app icon / wordmark -->
+      <span class="brand-name">Norwegian 4×4</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#how-it-works">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a class="cta" href="#get" data-analytics="nav-download">Download</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="get">
+      <h1>Norwegian 4×4</h1>
+      <p class="tagline">The guided heart-rate interval workout. Focus on your effort — the app does the rest.</p>
+      <p class="subhead">
+        Norwegian 4×4 finds your target heart-rate zone, runs the interval timer, and coaches you to
+        stay in zone through every interval — with your Apple Watch or any Bluetooth heart-rate monitor.
+      </p>
+
+      <p class="cta-row">
+        <!-- TODO(design): official "Download on the App Store" badge -->
+        <!-- TODO(action): replace with the real App Store URL / app ID -->
+        <a class="cta cta-primary" href="https://apps.apple.com/app/idXXXXXXXXX"
+           data-analytics="hero-download">Download on the App Store</a>
+      </p>
+      <p class="price-note">First workout free · one-time $4.99 · no subscription</p>
+
+      <figure class="hero-shot">
+        <div class="placeholder">Screenshot slot — iPhone live zone-coaching screen
+          (source: app repo <code>assets/screenshots/iphone/</code>)</div>
+        <figcaption>Live zone coaching updates every second through each interval.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============================================================
+         WHAT IT IS / HOW IT WORKS
+         Carries keyword-relevant explainer content for "norwegian 4x4".
+         ============================================================ -->
+    <section id="how-it-works" aria-labelledby="how-heading">
+      <h2 id="how-heading">How the Norwegian 4×4 works</h2>
+      <p>
+        The workout is simple and always the same shape, so you always know how hard to push and how
+        much time is left:
+      </p>
+      <ol class="protocol">
+        <li><strong>Warm-up</strong> — an easy start you can adjust in Settings.</li>
+        <li><strong>4 × 4-minute intervals</strong> — four hard efforts in your target heart-rate zone.</li>
+        <li><strong>3-minute recoveries</strong> — easy recovery between each interval.</li>
+        <li><strong>Cool-down</strong> — wind down to finish.</li>
+      </ol>
+      <p>
+        Throughout, the app tells you whether to <em>push harder</em>, hold steady <em>in the zone</em>,
+        or <em>reduce effort</em>, updated every second, with haptic and sound cues on every phase and
+        zone change — so you can train without watching your wrist.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         FEATURES
+         ============================================================ -->
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">What you get</h2>
+      <ul class="feature-list">
+        <li><strong>Live zone coaching</strong> — push harder, in the zone, or reduce effort, updated every second.</li>
+        <li><strong>Works with any Bluetooth heart-rate monitor</strong> — chest straps and watches in broadcast mode, as well as the Apple Watch.</li>
+        <li><strong>A clean guided timer</strong> for the full 4×4 session.</li>
+        <li><strong>Post-workout insight</strong> — heart-rate recovery, peak heart rate, and time in zone.</li>
+        <li><strong>A fitness trend</strong> that follows your recovery over recent sessions, so you can see progress.</li>
+        <li><strong>Haptic and sound cues</strong> on every phase and zone change.</li>
+        <li><strong>Run it from your Apple Watch</strong> — no phone needed.</li>
+        <li><strong>Records to Apple Health</strong> as run, bike, row, ski, swim, and more, counting toward your rings.</li>
+      </ul>
+
+      <figure class="features-shots">
+        <div class="placeholder">Screenshot gallery slot — home screen, workout breakdown, trends, Apple Watch
+          (source: app repo <code>assets/screenshots/</code>)</div>
+      </figure>
+    </section>
+
+    <!-- ============================================================
+         SCIENCE
+         ============================================================ -->
+    <section id="science" aria-labelledby="science-heading">
+      <h2 id="science-heading">Backed by the science</h2>
+      <p>
+        The Norwegian 4×4 is one of the most studied interval workouts for building aerobic fitness and
+        VO2max. The app calculates your zones from your age, or from a maximum heart rate you set yourself.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         PRIVACY
+         ============================================================ -->
+    <section id="privacy" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">Private by design</h2>
+      <p>
+        No account. No ads. No analytics. Everything is computed and stored on your device — nothing
+        leaves it. The App Store privacy label is <strong>Data Not Collected</strong>.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         PRICING
+         ============================================================ -->
+    <section id="pricing" aria-labelledby="pricing-heading">
+      <h2 id="pricing-heading">One price, no subscription</h2>
+      <p>
+        Your first workout is free. After that it is a one-time <strong>$4.99</strong> purchase.
+        No subscription, ever.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         REQUIREMENTS
+         ============================================================ -->
+    <section id="requirements" aria-labelledby="requirements-heading">
+      <h2 id="requirements-heading">Requirements</h2>
+      <p>
+        Heart-rate tracking and zone coaching need either an Apple Watch or a Bluetooth heart-rate
+        monitor (a chest strap, or a watch in broadcast mode). On an iPhone alone with neither, the app
+        runs as a guided interval timer.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         FAQ — mirrors the FAQPage structured data above.
+         ============================================================ -->
+    <section id="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently asked questions</h2>
+
+      <h3>What is the Norwegian 4×4 workout?</h3>
+      <p>
+        The Norwegian 4×4 is an interval workout: a warm-up, four hard 4-minute intervals at high effort
+        with easy 3-minute recovery between them, then a cool-down. It is one of the most studied
+        protocols for building aerobic fitness and VO2max.
+      </p>
+
+      <h3>Do I need an Apple Watch to use the app?</h3>
+      <p>
+        No. Heart-rate zone coaching works with either an Apple Watch or any Bluetooth heart-rate
+        monitor, such as a chest strap or a watch in broadcast mode. On an iPhone alone with neither,
+        the app runs as a guided interval timer.
+      </p>
+
+      <h3>Is the app free?</h3>
+      <p>Your first workout is free. After that it is a one-time $4.99 purchase. There is no subscription.</p>
+
+      <h3>Does the app collect my data?</h3>
+      <p>
+        No. There is no account, no ads, and no analytics. Everything is computed and stored on your
+        device, and nothing leaves it.
+      </p>
+
+      <h3>How do I set my maximum heart rate?</h3>
+      <p>
+        The app estimates your maximum heart rate from your age using the Tanaka formula
+        (208 − 0.7 × age), or you can set it yourself with Manual Override in Settings.
+      </p>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA
+         ============================================================ -->
+    <section class="final-cta" aria-labelledby="final-cta-heading">
+      <h2 id="final-cta-heading">Start your first 4×4 free</h2>
+      <p class="cta-row">
+        <!-- TODO(action): replace with the real App Store URL / app ID -->
+        <a class="cta cta-primary" href="https://apps.apple.com/app/idXXXXXXXXX"
+           data-analytics="footer-download">Download on the App Store</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <nav aria-label="Footer">
+      <a href="https://norwegian4x4.app/privacy-policy">Privacy Policy</a>
+      <a href="https://norwegian4x4.app/support">Support</a>
+      <a href="mailto:alicedevwin@icloud.com">Contact</a>
+    </nav>
+    <p class="copyright">© 2026 Alice Winthrop. Norwegian 4×4.</p>
+  </footer>
+</body>
+</html>

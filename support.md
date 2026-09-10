@@ -26,4 +26,4 @@ For bug reports, feature requests, or questions:
 
 ---
 
-[Privacy Policy](https://alicewinthrop.github.io/norwegian4x4/privacy-policy)
+[Privacy Policy](https://norwegian4x4.app/privacy-policy)
