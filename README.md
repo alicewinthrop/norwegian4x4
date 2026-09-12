@@ -5,7 +5,7 @@
 ## Navigation
 
 **Privacy Policy**
-[Privacy Policy](https://alicewinthrop.github.io/norwegian4x4/privacy-policy)
+[Privacy Policy](https://norwegian4x4.app/privacy-policy)
 
 **Support**
-[Support](https://alicewinthrop.github.io/norwegian4x4/support)
+[Support](https://norwegian4x4.app/support)
