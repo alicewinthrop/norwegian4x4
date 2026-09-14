@@ -502,11 +502,10 @@ td { color: var(--ink-2); }
 }
 
 /* ---------- App Store badge ---------- */
-/* Official Apple artwork. White badge on the dark ground, black in light mode. */
+/* Official Apple artwork (white badge). */
 .badge-link { display: inline-flex; align-items: center; }
 .badge-link img { height: 48px; width: auto; display: block; }
-.badge-light { display: none; }
-@media (prefers-color-scheme: light) {
-  .badge-dark { display: none; }
-  .badge-light { display: inline-block; }
-}
+
+/* ---------- masthead nav link ---------- */
+.masthead .nav-link { color: var(--ink-2); text-decoration: none; font-weight: 500; font-size: 15px; white-space: nowrap; }
+.masthead .nav-link:hover { color: var(--ink); }
