@@ -45,6 +45,11 @@
       "@type": "Question",
       "name": "Where is my workout data stored?",
       "acceptedAnswer": { "@type": "Answer", "text": "Your workout data is saved on your device and to Apple Health. The app keeps your workout history locally so you can review past sessions, and you can delete any workout from the History screen. There is no server and no analytics, you don't need an account, and it does not transmit your data off your device." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my workout show up twice in Apple Health?",
+      "acceptedAnswer": { "@type": "Answer", "text": "If you track with a Bluetooth heart rate monitor whose own app also logs to Apple Health, such as Whoop, Garmin Connect, or Polar Flow, both that app and Norwegian 4x4 can save the same session, so it appears twice. To fix it, open Norwegian 4x4, go to Settings > Data, and turn off \"Save workouts to Apple Health.\" After that only your monitor's app logs the workout, so there is a single entry. Your history inside Norwegian 4x4 is unaffected. One exception: if you use a plain chest strap with no companion app writing to Apple Health, like a Garmin HRM-Dual or a Polar H10 in broadcast mode, leave this setting on, otherwise your workouts will not reach Apple Health at all. Only turn it off if you actually see duplicates. This setting was added in version 1.6.1." }
     }
   ]
 }
@@ -91,6 +96,13 @@
         <details>
           <summary>Where is my workout data stored?</summary>
           <p>Your workout data is saved on your device and to Apple Health. The app keeps your workout history locally on your device so you can review past sessions, and you can delete any workout from the History screen. The app has no server and no analytics, you do not need an account, and it does not transmit your data off your device. Anything you share with another service is your choice.</p>
+        </details>
+        <details>
+          <summary>Why does my workout show up twice in Apple Health?</summary>
+          <p>If you track with a Bluetooth heart rate monitor whose own app also logs to Apple Health, such as Whoop, Garmin Connect, or Polar Flow, both that app and Norwegian 4x4 can save the same session, so it appears twice.</p>
+          <p>To fix it, open Norwegian 4x4, go to Settings &gt; Data, and turn off "Save workouts to Apple Health." After that only your monitor's app logs the workout, so there is a single entry. Your history inside Norwegian 4x4 is unaffected.</p>
+          <p>One exception: if you use a plain chest strap with no companion app writing to Apple Health, like a Garmin HRM-Dual or a Polar H10 in broadcast mode, leave this setting on, otherwise your workouts will not reach Apple Health at all. Only turn it off if you actually see duplicates.</p>
+          <p>This setting was added in version 1.6.1.</p>
         </details>
         <details>
           <summary>The app crashed or something is not working.</summary>
